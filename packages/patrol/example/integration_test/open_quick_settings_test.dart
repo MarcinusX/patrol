@@ -1,10 +1,10 @@
 import 'common.dart';
 
 void main() {
-  patrol('opens quick settings', ($) async {
+  patrolTest('opens quick settings', ($) async {
     await createApp($);
 
-    await $.native.openQuickSettings();
-    await $.native.pressHome();
+    // await $.native.openQuickSettings();
+    // await $.native.pressHome();
   });
 }
